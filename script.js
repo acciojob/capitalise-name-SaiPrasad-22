@@ -1,7 +1,4 @@
 //your JS code here. If required.
-let input = document.getElementById('fname');
+let input = document.querySelector('#fname');
 
-input.addEventListner('blur', function() {
 	input.value = input.value.toUpperCase();
-	
-})
